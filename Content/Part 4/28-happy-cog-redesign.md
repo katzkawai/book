@@ -1,44 +1,64 @@
 ## 28. Happy Cog Redesign
 
-With the taxonomy system in place, the next major change was to be a new redesign of the admin screens, touted to appear in WordPress 2.4.  There was still the occasional question about whether the designs created by the Shuttle Group would be implemented, but by then the project had moved on and it was [design studio Happy Cod, who were to carry out a total redesign of the admin](http://lists.automattic.com/pipermail/wp-hackers/2007-November/016123.html). The founder of Happy Cog, Jeffrey Zeldman, led the project with WordPress's logo designer Jason Santa Maria, and UX designer Liz Danzico making up the rest of the team.
+Shuttle had failed back in 2006 and WordPress' admin still needed a redesign. Matt turned to design studio Happy Cog. Jeffrey Zeldman, Happy Cog founder, led the project, along with WordPress' logo designer Jason Santa Maria and UX designer Liz Danzico.
 
-Whereas Shuttle was primarily focused on aesthetics, Happy Cog was brought in to both identify and correct information architecture problems and update and improve WordPress' look and feel. Despite the user-first ethos of the project, the admin screens became cluttered over time, as new features were added in a relatively haphazard way. The change between WordPress 1.5 and WordPress 2.3 was dramatic, with more and more being added to the post editing screen.[ perhaps add a comparison image here] It was clear that if the project wanted to be seen to be taking the user-first approach seriously, a redesign of the admin was needed, one that focused on the user experience as much as the design aesthetics.
+Whereas Shuttle focused on aesthetics, Happy Cog identified and corrected information architecture problems, and updated and improved WordPress' look and feel. Despite the project's user-first ethos, the admin screens had become cluttered, as new features were sometimes added in a haphazard way. The change between WordPress 1.5 and WordPress 2.3 speaks for itself.  
 
-In an unusual move for Happy Cog, they would produce the comps while the WordPress project would write the code. The scope of the project included user research and an audit of the current interface to identify WordPress' strengths and weaknesses, followed by a new structural design and a new interface design. These designs would then be passed over to the WordPress developers for final implementation.
+<img alt="WordPress 1.5 write screen" src="../../Resources/images/28/wp_1_5.png" width=“800px” />
 
-The other unusual aspect of the project for a traditional design agency was that the client was an open source project. The team at Happy Cog was mostly sheltered from the goings-on of the community, by both Matt and Jeffery, but that didn't mean that they weren't aware that this was an entirely different type of client. Jason Santa Maria says now:[ maybe add a quote from Zeldman]
+*The Write screen in WordPress 1.5.*
 
-> Any other client will have customers and their own community, but you really have to just manage the people inside of a company, whereas when you’re dealing with an open source project, you deal with the people that you’re talking with, but there’s this whole gamut of other people that you will only ever get to talk to a small portion of. I think that that’s really difficult.
+<img alt="WordPress 2.3 write screen" src="../../Resources/images/28/wp_2_3.png" width="800px" />
 
-> Plus, I think that on an open source project like this, it’s inherently different, not just because it’s more of a CMS than an informational website — the design needs are different — but it’s just a different kind of way to work, knowing that whatever you do probably isn’t going to stick around for very long. It’s going to continue to evolve and continue to be adapted. Usually, in the very near-term as well, not even 3-4 months from now, but next week.
+*The Write screen in WordPress 2.3.*
 
-The first stage of the process was an audit and usability review of WordPress. During this stage, Liz Danzico carried out research and produced a 25 page research audit about WordPress. The intention was to create an admin which would get out of the way. She quotes [a post written by Mark Jaquith](http://markjaquith.wordpress.com/2007/02/21/engine-awareness/) in which he says "That’s when I know WordPress is doing its job: when people aren’t even aware they’re using it because they’re so busy using it!"
+Happy Cog produced designs that WordPress developers then coded. The project included user research and an interface audit to identify WordPress' strengths and weaknesses, and to inform new structural and interface designs. 
 
-Liz spoke to Mark Riley, whose experience in the support forums meant that he had direct access to users' complaints. One of the major problems he highlighted was that more and more functionality had been packed into the write screen. Between  WordPress 1.2 and WordPress 2.0 the admin had become cluttered. Functionality had been added haphazardly and then tucked into modules using the pods introduced by the Shuttle project. This meant that there were all sorts of actions that a user could take on the Write screen, many of which were confusing or hidden.
+WordPress, as a free software project, was an unusual client for a traditional design agency. Matt and Jeffrey formed a buffer between the Happy Cog team and the community, but the designers, nonetheless, knew this was an entirely different type of client. <a href="http://archive.wordpress.org/interviews/2014_01_22_Santa_Maria.html#L82">Jason Santa Maria says</a>:
 
-A lot of the group’s discussion focused on the structure of the navigation, both in terms of the labelling, position, and grouping of functionality. Long discussions were had about whether to go with an object-oriented navigation (Posts, Pages, Comments, etc) or an action-oriented navigation (Write, Manage, etc). Liz's first hunch, supported by the newly-launched Tumblr, was that users preferred navigating by nouns. She felt that what was so confusing to users was that WordPress was organised by verbs. When it came to putting together the navigational structure, both a noun version and a verb version was used. In the end, however, and after limited user testing, the team went with a mixture of nouns and verbs - Write, Manage, Design, Comments. This meant that the functionality for different content types was scattered over different menu items - to write a post, for example, the user would go to "Write" but to manage a post they would navigate to "Manage". 
+<blockquote>Any other client will have customers and their own community, but you really have to just manage the people inside of a company, whereas when you’re dealing with an open source project, you deal with the people that you’re talking with, but there’s this whole gamut of other people that you will only ever get to talk to a small portion of. I think that that’s really difficult.
 
-The Happy Cog team provided extensive and detailed proposals and research for WordPress, all of which was fed back to Matt as the client. Their reports display a sensitivity to web users, and an appreciation of making WordPress more streamlined and simple. 
+Plus, I think that on an open source project like this, it’s inherently different, not just because it’s more of a CMS than an informational website -- the design needs are different -- but it’s just a different kind of way to work, knowing that whatever you do probably isn’t going to stick around for very long. It’s going to continue to evolve and continue to be adapted. Usually, in the very near-term as well, not even three-four months from now, but next week.</blockquote>
 
-When it came to the design stage, Jason Santa Maria was tasked with putting together three designs to present to Matt, who would choose one to move forward. 
+An audit and usability review were among the first steps. Liz Danzico researched and produced a 25-page document on WordPress. WordPress needed an admin that didn’t intrude on the user. In the audit, she quotes <a href="http://markjaquith.wordpress.com/2007/02/21/engine-awareness/">Mark Jaquith</a>: "That’s when I know WordPress is doing its job: when people aren’t even aware they’re using it because they’re so busy using it!"
 
-He designed three early mockups for Matt to choose from:
+Liz spoke to Mark Riley, whose support forum experience gave him direct access to users' complaints. One of the major problems he highlighted was the clutter that had amassed in the Write screen between WordPress 1.2 and WordPress 2.0. Features had been added and then tucked into modules using the pods introduced by the Shuttle project. There were many actions a user could take on the Write screen, and many of them were confusing or hidden.
 
-<img alt="Happy Cog design 1" src="../../Resources/images/design/happy-cog-design-a.jpg" />
+Discussion focused on navigation structure: labelling, position, and functionality grouping. Should they go with an object-oriented navigation (Posts, Pages, Comments, etc.) or an action-oriented navigation (Write, Manage, etc.)? Liz's first hunch -- supported by the newly launched Tumblr -- was that users preferred navigating by nouns. She felt WordPress’ verb structure was confusing. The first navigational structure iterations introduced both a noun version and a verb version. In the end, however, and after limited user testing, the team went with a mixture of nouns and verbs: Write, Manage, Design, Comments. This meant that the functionality for different content types was scattered over different menu items -- to write a post, for example, users would go to "Write." To manage the same post they would navigate to "Manage." 
 
-<img alt="Happy Cog design 2" src="../../Resources/images/design/happy-cog-design-b.jpg" />
+Happy Cog provided extensive and detailed proposals and research for WordPress, and shared them with Matt. Their reports display a sensitivity to web users, and an appreciation for simplifying and streamlining WordPress. 
 
-<img alt="Happy Cog design 3" src="../../Resources/images/design/happy-cog-design-c.jpg" />
+When it came to the design stage, Jason Santa Maria created three designs to present to Matt, who would choose one to move forward. 
 
-The design that Matt chose was the visually lighter one. Jason had taken a lot of the heavy blues introduced by Shuttle and lightened the interface up. The lighter blues were complemented by an orange accent colour.
+He designed three early mockups:
 
-When the design was finally signed off, WordPress trunk started to transform and [not everyone was pleased with the changes](http://lists.automattic.com/pipermail/wp-hackers/2008-February/017849.html) [with the changes](http://lists.automattic.com/pipermail/wp-hackers/2008-February/017850.html). There were questions about whether the admin would actually be more usable. There were major changes to the admin, that broken with many of the familiar patterns that had been set up by WordPress. Among the [most dissatisfied were those who had been involved with Shuttle](https://web.archive.org/web/20071024231530/http://www.brokenkode.com/archives/new-wordpress-admin/). Many of the comments made comparisons with Shuttle, with community members [emphatically requesting that Shuttle be the new interface](http://weblogtoolscollection.com/archives/2008/01/02/wordpress-24-admin-preview/#comment-1207158). 
+<img alt="Happy Cog design 1" src="../../Resources/images/28/happy-cog-design-a.jpg" />
 
-Just prior to the release of 2.5, Matt [posted a sneak peek on the development blog](http://wordpress.org/development/2008/03/25-sneak-peek/). This spurred WordPress users into installing the release candidate to get a better look. The response was mixed. [One user talked about the things that bothered him](http://astheria.com/design/evaluating-the-wordpress25-interface) - moving functionality on the post screen to below the post field, for example, and the precedence of the design tab - things which people who used WordPress every day easily picked up on. For many people, especially experienced bloggers, it was [a step backwards in terms of usability](http://www.neatorama.com/2008/04/21/wordpress-25-admin-backend-category-shenanigans-and-how-to-fix-it/#!vG29i). 
+*Mockup Number 1.*
 
-<img alt="The write screen in the WordPress 2.5 admin" src="../../Resources/images/design/2_5_admin.jpg" />
+<img alt="Happy Cog design 2" src="../../Resources/images/28/happy-cog-design-b.jpg" />
 
-While 2.2 was delayed due to removing taxonomies, the first version to fall significantly behind with the new 120 day release cycle was WordPress 2.4. 2.2 and 2.3 were mostly on schedule, but the Happy Cog redesign caused major changes to the codebase that meant delaying the release. Rather than straightforwardly delaying release, the development team decided to skip a version and [move straight from WordPress 2.3 and WordPress 2.5](http://lists.automattic.com/pipermail/wp-hackers/2008-January/016993.html), which was scheduled for release in March. This was the last time that a WordPress release was delayed.[ this closing could do with more work
-]	
+*Mockup Number 2.*
 
+<img alt="Happy Cog design 3" src="../../Resources/images/28/happy-cog-design-c.jpg" />
 
+*Mockup Number 3.*
+
+Matt chose the visually lighter design. Jason had taken Shuttle's heavy blue palette and lightened the interface. An orange accent color complemented the lighter blues.
+
+When the design was finally signed off, WordPress trunk started to transform. As changes took place, <a href="http://lists.wordpress.org/pipermail/wp-hackers/2008-February/017849.html">community feedback</a> was <a href="http://lists.wordpress.org/pipermail/wp-hackers/2008-February/017850.html">posted to wp-hackers</a>. Was the admin actually more usable? Major changes broke familiar patterns. Some comments compared the design to Shuttle's; a few community members even <a href="http://weblogtoolscollection.com/archives/2008/01/02/wordpress-24-admin-preview/#comment-1207158">wanted to implement Shuttle's interface</a>. 
+
+Just before release, <a href="http://wordpress.org/development/2008/03/25-sneak-peek/">a sneak peek was posted to the development blog</a>, and WordPress users installed the release candidate to get a better look. The response echoed that of the rest of the community. Regular WordPress users were surprised by the functionality changes to the Write screen. For some, it was <a href="http://www.neatorama.com/2008/04/21/wordpress-25-admin-backend-category-shenanigans-and-how-to-fix-it/#!vG29i">a step backward</a>.  
+
+<img alt="The write screen in the WordPress 2.5 admin" src="../../Resources/images/28/2_5_admin.jpg" />
+
+*The Write screen in the WordPress 2.5 admin.*
+
+WordPress 2.4 was the first version to fall significantly behind the 120-day release cycle. Versions 2.2 and 2.3 were mostly on schedule, but the Happy Cog redesign brought in major changes to the codebase. Rather than just delaying release, a version was skipped, <a href="http://lists.wordpress.org/pipermail/wp-hackers/2008-January/016993.html">moving straight from WordPress 2.3 to WordPress 2.5</a>, which was scheduled for release in March. 
+
+But there were bigger problems with this release cycle than just the delay. The community felt that they had not been consulted; they felt disenfranchised. In some ways, the redesign was destined to fail before it even began. With no participation and no process, there was no way to ensure community buy-in. Jeffrey Zeldman, reflecting on the process, says:
+
+<blockquote>It worked for us, from our perspective, that we were a small team reporting to a single client who had life or death approval over everything. We had to please one user: Matt. He could say yes or no. We completely bypassed the community. That enabled us to get a design done that we felt was crisp and focused and achieved certain goals. And that sounds great. Except that, because the community wasn't involved, inevitably, the design then became unpopular because nobody got their say in it. And if I could go back and do it again, I would involve them up front, and find ways to get my feedback without it turning into a committee clustercuss. </blockquote>
+
+As with Shuttle before it, problems surfaced in the design process. Free software projects are collaborative enterprises; when part of the process moves behind closed doors to avoid the problems of working by committee, new problems arise. However much a project tries to avoid it, that committee exists and must have its say.
+	
